@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hw10"
+version = "0.1.0"
+description = ""
+authors = ["Vitalii-Mykhalchenko <swimming580@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.4"
+psycopg2 = "^2.9.9"
+mongo = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
